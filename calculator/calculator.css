@@ -1,0 +1,352 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    cursor: progress;
+}
+
+body {
+    list-style: none;
+    background-color: coral;
+    cursor: none;
+    flex-wrap: wrap;
+}
+
+
+#upper-context {
+    border: solid black 6px;
+    height: 65px;
+    width: 400px;
+    display: flex;
+    justify-self: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#box {
+    height: 560px;
+    width: 400px;
+    border: solid black 10px;
+    border-radius: 15px;
+    border-color: black;
+    justify-self: center;
+    position: relative;
+    top: 50px;
+    right: 5px;
+    font-size: 1.5rem;
+    /* background-color: grey; */
+    box-shadow: 2px 2px 5px black;
+    background-color: #E0DFD8;
+    flex-wrap: wrap;
+    
+}
+
+.box-inner input {
+    border: solid black 4px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-self: center;
+    margin: 20px;
+    font-size: xx-large;
+    box-shadow: 2px 2px 5px black;
+    flex-wrap: wrap;
+}
+
+#button-row-one {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: black;
+}
+
+#button-row-one .btn-ac {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    cursor: pointer;
+}
+
+#button-row-one .btn-de {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    cursor: pointer;
+}
+
+#button-row-one .btn-percent {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    cursor: pointer;
+}
+
+#button-row-one .btn-slash {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    cursor: pointer;
+}
+
+/* row 2 */
+
+#button-row-two {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#button-row-two .btn-seven {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-two .btn-eight {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-two .btn-nine {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-two .btn-multiply {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    color: black;
+}
+
+
+/* row 3 */
+
+#button-row-three {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 30px;
+    color: white;
+
+}
+
+#button-row-three .btn-four {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-three .btn-five {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-three .btn-six {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-three .btn-subtract {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    color: black;
+}
+
+
+/* row 4 */
+
+#button-row-four {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 30px;
+    color: white;
+}
+
+#button-row-four .btn-one {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-four .btn-two {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-four .btn-three {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-four .btn-add {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    color: black;
+}
+
+
+/* row 5 */
+
+#button-row-five {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 30px;
+    color: white;
+
+}
+
+#button-row-five .btn-doubleZero {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    color:  black;
+}
+
+
+#button-row-five .btn-zero {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: black;
+}
+
+#button-row-five .btn-dot {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    color:  black;
+}
+
+#button-row-five .btn-equalto {
+    border: solid 2px black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 2px 3px black;
+    background-color: orange;
+    color:  red;
+}
+
+
+#btn-text {
+    position: relative;
+    top: 10px;
+}
+
+
+/* finshed */
+
+
+
+/* mouse animation */
+
+/* #cursor-dot {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+} */
+
+/* #cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 3px solid black;
+}
+
+#cursor-dot,
+#cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+} */
+
+/* mouse animation end */
+
